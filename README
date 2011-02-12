@@ -1,0 +1,10 @@
+Simple node.js comet -> websocket bridge 
+
+Intended initially for use with RestMQ, can be used for any COMET endpoint or can be adapted to use long polling. 
+
+Also can send back data received via ws.
+
+Depends on: http://github.com/gimite/web-socket-js (bundled)
+
+gleicon - 2011 - http://www.7co.cc | http://github.com/gleicon
+
