@@ -5,6 +5,17 @@ Intended initially for use with RestMQ, can be used for any COMET endpoint or ca
 Also can send back data received via ws.
 
 Depends on: http://github.com/gimite/web-socket-js (bundled)
+Configuration (inside source file):
+
+        Websocket:
+        var target_ws_uri = '/ws/test';
+        var target_ws_port = 8007;
+
+        Comet source:
+        var comet_src_uri = '/c/test';
+        var comet_src_host = 'localhost';
+        var comet_src_port = '80';
+
 
 gleicon - 2011 - http://www.7co.cc | http://github.com/gleicon
 

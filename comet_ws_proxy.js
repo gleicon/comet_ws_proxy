@@ -5,13 +5,12 @@
 var sys = require("sys");
 var ws = require("./lib/node.ws.js/ws")
 var http = require("http");
-var qs = require("querystring");
 
 var target_ws_uri = '/ws/test';
 var target_ws_port = 8007;
 var comet_src_uri = '/c/test';
-var comet_src_host = '7co.cc';
-var comet_src_port = '8082';
+var comet_src_host = 'localhost';
+var comet_src_port = '80';
 
 console.log('Initializing comet -> ws proxy');
 
